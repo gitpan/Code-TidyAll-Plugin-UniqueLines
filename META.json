@@ -1,0 +1,69 @@
+{
+   "abstract" : "remove duplicate lines from a file",
+   "author" : [
+      "Olaf Alders <olaf@wundercounter.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.140640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Code-TidyAll-Plugin-UniqueLines",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "examples"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30",
+            "Module::Build" : "0.3601"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::CPAN::Changes" : "0.19",
+            "Test::Pod::Coverage" : "1.08"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Code::TidyAll::Plugin" : "0",
+            "List::Uniq" : "0",
+            "Moo" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/oalders/Code-TidyAll-Plugin-UniqueLines/issues"
+      },
+      "homepage" : "https://github.com/oalders/code-tidyall-plugin-uniquelines",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/oalders/code-tidyall-plugin-uniquelines.git",
+         "web" : "https://github.com/oalders/code-tidyall-plugin-uniquelines"
+      }
+   },
+   "version" : "0.000001",
+   "x_contributors" : [
+      "Olaf Alders <olaf@wundersolutions.com>"
+   ]
+}
+
