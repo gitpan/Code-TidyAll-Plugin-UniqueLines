@@ -1,8 +1,10 @@
 use strict;
 use warnings;
 
+use 5.006;
+
 package Code::TidyAll::Plugin::UniqueLines;
-$Code::TidyAll::Plugin::UniqueLines::VERSION = '0.000001';
+$Code::TidyAll::Plugin::UniqueLines::VERSION = '0.000002';
 use Moo;
 extends 'Code::TidyAll::Plugin';
 
@@ -16,19 +18,17 @@ sub transform_source {
 
 1;
 
-__END__
-
 =pod
 
 =encoding UTF-8
 
 =head1 NAME
 
-Code::TidyAll::Plugin::UniqueLines
+Code::TidyAll::Plugin::UniqueLines - Remove duplicate lines from a file
 
 =head1 VERSION
 
-version 0.000001
+version 0.000002
 
 =head1 SYNOPSIS
 
@@ -41,10 +41,6 @@ version 0.000001
 
 Discards duplicate lines from a file.  Useful for files containing one entry
 per line, such as C<.svnignore>, C<.gitignore>, and C<.ispell*>.
-
-=head1 NAME
-
-Code::TidyAll::Plugin::UniqueLines - remove duplicate lines from a file
 
 =head1 ACKNOWLEDGEMENTS
 
@@ -62,3 +58,8 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
+
+__END__
+
+# ABSTRACT: Remove duplicate lines from a file
+

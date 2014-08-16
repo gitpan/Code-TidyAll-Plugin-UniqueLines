@@ -1,8 +1,8 @@
 NAME
-    Code::TidyAll::Plugin::UniqueLines
+    Code::TidyAll::Plugin::UniqueLines - Remove duplicate lines from a file
 
 VERSION
-    version 0.000001
+    version 0.000002
 
 SYNOPSIS
        # In configuration:
@@ -13,9 +13,6 @@ SYNOPSIS
 DESCRIPTION
     Discards duplicate lines from a file. Useful for files containing one
     entry per line, such as ".svnignore", ".gitignore", and ".ispell*".
-
-NAME
-    Code::TidyAll::Plugin::UniqueLines - remove duplicate lines from a file
 
 ACKNOWLEDGEMENTS
     This code was essentially pilfered from Code::TidyAll::Plugin::SortLines
